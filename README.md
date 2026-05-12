@@ -185,9 +185,9 @@ Amazon SES is used to send:
 
 ---
 
-# 📊 Screenshots To Include In GitHub
+# 📊 Screenshots Included
 
-Add screenshots for:
+Added screenshots for:
 
 * Employee dashboard
 * HR dashboard
@@ -196,50 +196,3 @@ Add screenshots for:
 * SES email notification
 * DynamoDB tables
 * EventBridge scheduler
-
----
-
-# ⚙️ Setup Instructions
-
-## 1. Clone Repository
-
-```bash
-git clone https://github.com/rahulrahu15/Smart-Leave-Absence-Management-Engine.git
-cd smart-leave-management-engine
-```
-
-## 2. Install Frontend Dependencies
-
-```bash
-npm install
-```
-
-## 3. Run Frontend
-
-```bash
-npm run dev
-```
-
-## 4. Configure AWS Services
-
-Create and configure:
-
-* Amazon Cognito
-* API Gateway
-* Lambda Functions
-* DynamoDB Tables
-* Step Functions
-* SES
-* EventBridge
-* S3 + CloudFront
-
----
-
-# 📌 Future Improvements
-
-* Manager inactivity escalation after 48 hours
-* Slack/MS Teams notifications
-* PDF report generation
-* Mobile responsive UI improvements
-* Terraform/IaC deployment
-* CI/CD pipeline using CodePipeline
